@@ -1,4 +1,4 @@
-FROM langchain/langgraph-api:3.13-wolfi
+FROM langchain/langgraph-api:3.11
 
 
 
@@ -40,3 +40,4 @@ RUN uv pip uninstall --system pip setuptools wheel && rm /usr/bin/uv /usr/bin/uv
 
 
 WORKDIR /deps/DynamicAgents
+
